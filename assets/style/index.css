@@ -277,6 +277,11 @@ main{
     text-align: center;
     
 }
+.social_icon{
+    width: 100%;
+    position: relative;
+    justify-content: center;  
+}
 @media only screen and (max-width: 767px) {
     #about_page{
         height: fit-content;
@@ -286,10 +291,11 @@ main{
         font-size: x-large;
     
     }
-    /* .about_text h2{
-        margin-left: 30% !important;
-    
-    } */
+    .social_icon{
+        margin: 0% auto !important;
+        width: 30% !important;
+
+    }
     .about_img{
         height: fit-content;
         margin-top: 5% !important;
@@ -335,6 +341,9 @@ main{
     -webkit-box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.3);
     -moz-box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.3);
 
+}
+.btn{
+    height: 40px !important;
 }
 @media only screen and (max-width: 767px) {
     .product_inner_content{
@@ -624,6 +633,9 @@ main{
   align-items: center;
   padding: 10px 14px;
 }
+.card-content{
+    height: 200px;
+}
 .image-content{
   position: relative;
   row-gap: 5px;
@@ -654,8 +666,8 @@ main{
 }
 .card-image{
   position: relative;
-  height: 150px;
-  width: 150px;
+  height: 80px;
+  width: 80px;
   border-radius: 50%;
   background: #FFF;
   padding: 3px;
@@ -676,6 +688,7 @@ main{
   font-size: 14px;
   color: #707070;
   text-align: center;
+  height: 200px;
 }
 
 .swiper-navBtn{
@@ -727,7 +740,6 @@ main{
     display: none;
   }
 }
-
 /* ========================================= CONTACT STYLE ============== */
 #contact_page{
     height: fit-content;
@@ -780,12 +792,13 @@ main{
   }
 
 /* ========================================= FOOTER STYLE ============== */
-footer {
+footer{
     width: 100% !important;
     height: fit-content;
     text-decoration: none;
     text-align: center;
     margin-top: 15% !important;
+    background-color: var(--drkcolor);
 }
 footer a{
     text-decoration: none;
