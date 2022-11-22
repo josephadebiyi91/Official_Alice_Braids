@@ -1,0 +1,87 @@
+/* === GENERAL STYLING ==== */
+/* brand font */
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap');
+/* navs font */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+/* paragraph font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    user-select: none;
+    user-zoom: none;
+}
+:root{
+    --litcolor:#FFFFFF;
+    --blkkcolor:#000000;
+    --drkcolor:#C68B59;
+    --brandfont:'Abyssinica SIL', serif;
+    --navfont: 'Raleway', sans-serif;
+    --pfont: 'Roboto Flex', sans-serif;
+}
+.hding{
+    font-size: xx-large;
+    font-weight: 800;
+    font-family: var(--brandfont);
+}
+@media screen and (max-width: 767px) {
+    .hding{
+        font-size: x-large;
+        font-weight: 800;
+        font-family: var(--brandfont);
+    }
+  }
+.small-hding{
+    font-weight: 800;
+    font-family: var(--brandfont);
+    display: block;
+    font-size: small;
+}
+
+p{
+    font-family: var(--pfont);
+    text-align: justify;
+}
+.btn{
+    width: fit-content;
+    background-color:var(--drkcolor) !important;
+    border: none !important;
+    color: var(--litcolor) !important;
+}
+.btn:hover{
+    width: fit-content;
+    background:none !important;
+    border: 1px solid var(--drkcolor) !important;
+    color: var(--drkcolor) !important;
+}
+/* === NAVBAR STYLING ==== */
+#navbar{
+    background-color:var(--litcolor);
+    /* height: 10vh !important; */
+}
+.navbar-brand{
+    font-family:var(--brandfont);
+    border: 2px solid var(--blkkcolor);
+}
+.nav-link,form a{
+    font-family: var(--navfont);
+    font-size: 0.9em !important;
+    font-weight: bold;
+    color: var(--blkcolor);
+}
+
+/* ========================================= GALLERY PAGE ========================== */
+.product_page_top{
+    height: fit-content;
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+}
+.gallery_box{
+    height: 50vh;
+    background-color: #C68B59;
+    margin-top: 10%;
+}

@@ -1,0 +1,493 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>log_in</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- ========================================= LOG_IN STYLE ======================================= -->
+    
+
+<!-- ========================================= BOOTSTRAP CDN ========================= -->
+
+<!-- ========================================== JQUERY CDN ================================== -->
+<script src="jquery-3.6.0.min.js"></script>
+
+
+
+
+  </head>
+  <body>
+    <!-- =================================================== NAVBAR =============================== -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container-fluid px-4">
+          <a class="navbar-brand" href="#">ALICE_BRAID</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="tooltip" data-bs-title="Default tooltip" href="#">ABOUT</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">PRODUCT</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">GALLERY</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">BLOGS</a>
+                  </li>
+                  
+            </ul>
+            <form class="d-flex" role="search">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item-1">
+                        <a class="nav-link" href="#"><i class="bi bi-person-circle"></i></a>
+                    </li>
+                    <li class="nav-item-1">
+                        <a class="nav-link" href="#"><i class="bi bi-cart4"></i></a>
+                    </li>
+                    <a class="btn btn-outline-dark" href="#">
+                        BOOK NOW
+                    </a>   
+                </ul>
+            </form>
+          </div>
+        </div>
+      </nav>
+    
+    <!-- ================================================= LANDING PAGE ======================================= -->
+    <div id="landing_page">
+        <div class="row mx-0" id="landing_cover">
+            <div class="col-12">
+                <div class="landing_text">
+                    <div class="landing_text_header px-3 ">
+                        
+                    </div>
+                    <div class="landing_text_center  px-3">
+                        GLOW YOUR SKIN
+                    </div>
+                    <div class="landing_text_bottom px-3">
+                        TASTE OF LIFE
+                    </div>
+                    <a href="#">
+                        <div class="button">
+                            EXPLORE MORE
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="d-flex justify-content-end">
+                    <div class="menu_icon " data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom"></div>
+                </div>
+               
+                    </div>
+                </div>
+                <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+                    <div class="offcanvas-body small">
+                        <ul class="navbar-nav ">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="bi bi-facebook"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="bi bi-instagram"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" data-bs-toggle="tooltip" data-bs-placement="top"
+                                data-bs-custom-class="custom-tooltip"
+                                data-bs-title="This top tooltip is themed via CSS variables."><i class="bi bi-chat-dots-fill"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- ===================================== KEYPOINT PAGE =================================== -->
+    <div class="keypoint_page">
+        <div class="row mx-0 px-5">
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="keypoint">
+                    <div class="affordable">
+                        <div class="d-flex justify-content-center">
+                            <div class="affordable_icon"></div>
+                            <div class="keypoint_header">
+                                <div>QUALITY SERVICES</div>
+                                <hr style="margin-top: -3%; border: 2px solid black;">
+                            </div>
+                        </div>
+                        <div class="keypoint_text">
+                            <small>Its all Affordable</small>
+                        </div>
+                    </div>
+                </div>
+            </div>>
+                        <div class="d-flex justify-content-center">
+                            <div class="delivery_icon"></div>
+                            <div class="keypoint_header">
+                                <div>SKILLED PROFESSIONALS</div>
+                                <hr style="margin-top: -5%; border: 2px solid black;">
+                            </div>
+                        </div>
+                        <div class="keypoint_text">
+                            <small>Door step Delivery</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="keypoint">
+                    <div class="affordable">
+                        <div class="d-flex justify-content-center">
+                            <div class="efficient_icon"></div>
+                            <div class="keypoint_header">
+                                <div>CUSTOMER ORIENTED</div>
+                                <hr style="margin-top: -5%; border: 2px solid black;">
+                            </div>
+                        </div>
+                        <div class="keypoint_text">
+                            <small>Uniqueness in Purity</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+
+    <!-- ===================================== PRODUCT PAGR ====================== -->
+    <!-- <div class="product_page">
+        <div class="row mx-0">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="product">
+                    <div class="row mx-0">
+                        <div class="col-lg-6 col-md-6 col-12"><div class="product_img1"></div></div>
+                        <div class="col-lg-6 col-md-6 col-12"><div class="product_img2"></div></div>
+                        <div class="col-lg-6 col-md-6 col-12"><div class="product_img3"></div></div>
+                        <div class="col-lg-6 col-md-6 col-12"><div class="product_img4"></div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="product_text_container bg-danger">
+                    <div class="row mx-0">
+                        <div class="col-lg-12 col-md-12 col-sm-12">
+                            <div class="product_text">
+                                <small>_Look through our Products..
+
+                                </small>
+                                <div class="shop_header">
+                                    UNIQUE PRODUCTS
+                                </div>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis distinctio aliquid possimus molestias in eaque ut vel architecto exercitationem suscipit rerum fuga asperiores natus doloremque sequi, consequatur minus eos non.
+                                Iusto, doloribus impedit iste, vero repudiandae itaque consequatur possimus accusamus illo architecto soluta adipisci? Fuga sequi quia, praesentium animi repudiandae sit a! Voluptatum amet natus dolorem est praesentium laudantium quos?</p>
+                                <a href="#">
+                                    <div class="button2 py-1 px-4">
+                                        EXPLORE MORE
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div> -->
+
+    <!-- =========================================== SHOPSPAGE =============================== -->
+    <div class="shop_page">
+            <div class="row mx-0">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="shop">
+                        <div class="shop_text">
+                            <small>_Look through our Shops..</small>
+                            <div class="shop_header">
+                                PERFECT PLACE FOR YOUR BEAUTY
+                            </div>
+                            <a href="#">
+                                <div class="button_shop py-1 px-4">
+                                    EXPLORE MORE
+                                </div>
+                            </a>
+                        </div>
+                 
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="shop">
+                        <div class="shop_img1"></div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="shop">
+                        <div class="shop_img2"></div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="shop">
+                        <div class="shop_img3"></div>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <!-- ==========================================COUNTER PAGE ================================ -->
+    <div class="counter_page ">
+            <div class="row mx-0">
+                <div class="col-lg-3 col-md-3 col-sm-12">
+        
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12">
+               
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12">
+                
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12"></div>
+            </div>
+    </div>
+
+    <!-- =========================================== ABOUTPAGE =================================== -->
+    <div class="about_page">
+            <div class="row mx-0">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="about_text">
+                        <div class="about_header">
+                            BOOK APPOINTMENT TODAY
+                        </div>
+                        <div class="about_center">
+                            SPACE IS AVAILABLE
+                        </div>
+                        <div class="about_bottom">
+                            ALWAYS AT YOU SERVICE
+                        </div>
+                        <a href="#">
+                            <div class="about_btn py-1 px-4 ">
+                                EXPLORE MORE
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-6 col-sm-12">
+                    <div class="about">
+                        <div class="about_img"></div>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <!-- ====================================== ADVERTISMENT PAGR ===================================-->
+    <div class="advert_page">
+        <div class="row mx-0 px-5">
+            <div class="adv_text">
+                <p>OUR SERVICES</p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="advert">
+                    <div class="hair"></div>
+                    <div class="text">
+                        <p>Making of Hair</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="advert">
+                    <div class="nail"></div>
+                    <div class="text">
+                        <p>Fixing of Nails</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="advert">
+                    <div class="facial"></div>
+                    <div class="text">
+                        <p>Facial Treatment</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="advert">
+                    <div class="dread"></div>
+                    <div class="text">
+                        <p>Dread</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <SCRipt>
+        // navbar toggle
+        $(document).ready(function(){
+         $(".navbar-toggler").click(function(){
+          $(".navbar-collapse").show()
+         })
+         $(".nav-item").click(function(){
+           $(".navbar-collapse").hide()
+         })
+       })
+  // end
+    </SCRipt>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!-- ==================================== PRODUCT PAGE ================================= -->
+    <section class="row mx-0 px-lg-5 px-md-2 px-sm-1" id="product_page">
+        <div class="col-12">
+            <div class="product_top_text">
+              <a  href="#arrival"><div class="small-hding">NEW ARRIVALS</div></a> 
+              <a  href="#feature"><div class="small-hding">FEATURE PRODUCT</div></a> 
+              <a  href="#sale"><div class="small-hding">SALE ITEM</div></a> 
+            </div>
+            <div class="search_page">
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  </form>
+            </div>
+        </div>
+    </section>
+    <div class="product_item">
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" tabindex="0">
+            <div class="arrival" id="arrival">
+                <section class="row mx-0 px-lg-5 px-md-2 px-sm-1">
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="arrival_img"></div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="arrival_img"></div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="arrival_img"></div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="arrival_img"></div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="arrival_img"></div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="arrival_img"></div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 d-lg-block d-md-block d-sm-none" id="sm-none">
+                        <div class="arrival_img"></div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 d-lg-block d-md-block d-sm-none" id="sm-none">
+                        <div class="arrival_img"></div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 d-lg-block d-md-block d-sm-none" id="sm-none">
+                        <div class="arrival_img"></div>
+                    </div>
+                </section>
+                
+              
+            </div>
+            
+            <div class="feature" id="feature">Second heading</div>
+            <div class="sale" id="sale">Third heading</div>
+          </div>
+    </div>
+    <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center mt-5">
+          <li class="page-item disabled">
+            <a class="page-link">Previous</a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#">Next</a>
+          </li>
+        </ul>
+      </nav>
+
+
+
+
+
+
+
+
+
+
+      
+    <!-- ==================================== PRODUCT PAGE ================================= -->
+    <section class="row mx-0 px-lg-5 px-md-2 px-sm-1" id="product_page">
+        <div class="col-12">
+            <div class="product_top_text">
+              <a href="#"><div class="small-hding">NEW ARRIVALS</div></a> 
+              <a href="#"><div class="small-hding">FEATURE PRODUCT</div></a> 
+              <a href="#"><div class="small-hding">SALE ITEM</div></a> 
+            </div>
+            <div class="search_page">
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  </form>
+            </div>
+        </div>
+        <div class="col-12">
+            <div class="product_item">
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Login Form Start -->
+    <!-- <div class="dropdown">
+      <form class="dropdown-menu p-4">
+        <div class="mb-3">
+          <label for="exampleDropdownFormEmail2" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleDropdownFormEmail2" placeholder="email@example.com">
+        </div>
+        <div class="mb-3">
+          <label for="exampleDropdownFormPassword2" class="form-label">Password</label>
+          <input type="password" class="form-control" id="exampleDropdownFormPassword2" placeholder="Password">
+        </div>
+        <div class="mb-3">
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="dropdownCheck2">
+            <label class="form-check-label" for="dropdownCheck2">
+              Remember me
+            </label>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Sign in</button>
+      </form>
+    </div> -->
+    <!-- Login Form Start -->
