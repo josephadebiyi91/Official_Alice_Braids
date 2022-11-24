@@ -343,31 +343,6 @@
 </html>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  <!-- ==================================== PRODUCT PAGE ================================= -->
     <section class="row mx-0 px-lg-5 px-md-2 px-sm-1" id="product_page">
         <div class="col-12">
@@ -610,3 +585,153 @@
     </div>
   </div>
 </div>
+
+/////SERVIC/
+<div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      More
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse mt-2" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      <div class="accordion_inner">
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item">An item</li>
+                          <li class="list-group-item">A second item</li>
+                          <li class="list-group-item">A third item</li>
+                          <li class="list-group-item">A fourth item</li>
+                          <li class="list-group-item">And a fifth one</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<div class="container">
+
+            <div class="row">
+
+                <div class="col-md-12">
+                    
+                  
+        
+<div class="owl-carousel">
+                                
+                             
+
+                                <div class="product-card">
+              <div class="product-badge text-danger">23% Off</div><a class="product-thumb" href="#" data-abc="true"><img src="https://i.imgur.com/nXgI5iT.png" alt="Product"></a>
+              <h3 class="product-title"><a href="#" data-abc="true">Microsoft Surface Pro 4</a></h3>
+              <h4 class="product-price">
+                <del>$444.99</del>$344.99
+              </h4>
+              <div class="product-buttons">
+                <button class="btn btn-outline-secondary btn-sm btn-wishlist" data-toggle="tooltip" title="" data-original-title="Whishlist"><i class="fa fa-heart"></i></button>
+                <button class="btn btn-outline-primary btn-sm" data-toast="" data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-circle-check" data-toast-title="Product" data-toast-message="successfuly added to cart!">Add to Cart</button>
+              </div>
+            </div>
+            
+
+                                <div class="product-card">
+              <div class="product-badge text-danger">25% Off</div><a class="product-thumb" href="#" data-abc="true"><img src="https://i.imgur.com/ILEU18M.jpg" alt="Product"></a>
+              <h3 class="product-title"><a href="#" data-abc="true">Dell Inspiration 4</a></h3>
+              <h4 class="product-price">
+                <del>$544.99</del>$444.99
+              </h4>
+              <div class="product-buttons">
+                <button class="btn btn-outline-secondary btn-sm btn-wishlist" data-toggle="tooltip" title="" data-original-title="Whishlist"><i class="fa fa-heart"></i></button>
+                <button class="btn btn-outline-primary btn-sm" data-toast="" data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-circle-check" data-toast-title="Product" data-toast-message="successfuly added to cart!">Add to Cart</button>
+              </div>
+            </div>
+     
+
+                                <div class="product-card">
+              <div class="product-badge text-danger">28% Off</div><a class="product-thumb" href="#" data-abc="true"><img src="https://i.imgur.com/2kePJmX.jpg" alt="Product"></a>
+              <h3 class="product-title"><a href="#" data-abc="true">Dell Xtreame 5</a></h3>
+              <h4 class="product-price">
+                 <del>$244.99</del>$144.99
+              </h4>
+              <div class="product-buttons">
+                <button class="btn btn-outline-secondary btn-sm btn-wishlist" data-toggle="tooltip" title="" data-original-title="Whishlist"><i class="fa fa-heart"></i></button>
+                <button class="btn btn-outline-primary btn-sm" data-toast="" data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-circle-check" data-toast-title="Product" data-toast-message="successfuly added to cart!">Add to Cart</button>
+              </div>
+            </div>
+           
+
+                                <div class="product-card">
+              <div class="product-badge text-danger">48% Off</div><a class="product-thumb" href="" data-abc="true"><img src="https://i.imgur.com/yugQN69.jpg" alt="Product"></a>
+              <h3 class="product-title"><a href="" data-abc="true">HP Pro 4</a></h3>
+              <h4 class="product-price">
+                <del>$544.99</del>$344.99
+              </h4>
+              <div class="product-buttons">
+                <button class="btn btn-outline-secondary btn-sm btn-wishlist" data-toggle="tooltip" title="" data-original-title="Whishlist"><i class="fa fa-heart"></i></button>
+                <button class="btn btn-outline-primary btn-sm" data-toast="" data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-circle-check" data-toast-title="Product" data-toast-message="successfuly added to cart!">Add to Cart</button>
+              </div>
+            </div>
+          
+
+                                <div class="product-card">
+              <div class="product-badge text-danger">29% Off</div><a class="product-thumb" href="#" data-abc="true"><img src="https://i.imgur.com/JOpmFkw.png" alt="Product"></a>
+              <h3 class="product-title"><a href="#" data-abc="true">Microsoft surface 5</a></h3>
+              <h4 class="product-price">
+                 <del>$644.99</del>$344.99
+              </h4>
+              <div class="product-buttons">
+                <button class="btn btn-outline-secondary btn-sm btn-wishlist" data-toggle="tooltip" title="" data-original-title="Whishlist"><i class="fa fa-heart"></i></button>
+                <button class="btn btn-outline-primary btn-sm" data-toast="" data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-circle-check" data-toast-title="Product" data-toast-message="successfuly added to cart!">Add to Cart</button>
+              </div>
+            </div>
+      
+
+                                <div class="product-card">
+              <div class="product-badge text-danger">28% Off</div><a class="product-thumb" href="#" data-abc="true"><img src="https://i.imgur.com/O02Owsf.jpg" alt="Product"></a>
+              <h3 class="product-title"><a href="#" data-abc="true">HP Elitebook 840</a></h3>
+              <h4 class="product-price">
+                <del>$844.99</del>$644.99
+              </h4>
+              <div class="product-buttons">
+                <button class="btn btn-outline-secondary btn-sm btn-wishlist" data-toggle="tooltip" title="" data-original-title="Whishlist"><i class="fa fa-heart"></i></button>
+                <button class="btn btn-outline-primary btn-sm" data-toast="" data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-circle-check" data-toast-title="Product" data-toast-message="successfuly added to cart!">Add to Cart</button>
+              </div>
+            </div>
+           
+
+                    
+           
+              
+              </div>
+          </div>
+          </div>
+        
+    </div>
+ 
