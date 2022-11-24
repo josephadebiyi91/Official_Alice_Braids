@@ -24,50 +24,55 @@
   </head>
   <body class="container-fluid">
     <!-- navbar start -->
-    <section class="row sticky-top px-lg-5 px-md-2 px-sm-1 bg-white" id="navbar">
-        <nav class="col-12 navbar navbar-expand-lg">
-            <div class="container-fluid">
-              <a class="navbar-brand fw-bold px-2" href="index.html">ALICE_BRAID</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse  py-1" id="navbarTogglerDemo02">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+    <section class="row sticky-top px-lg-5 px-md-2 px-sm-1 mx-0 bg-white" id="navbar">
+      <nav class="col-12 navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand fw-bold px-2" href="index.html">ALICE_BRAID</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse  py-1" id="navbarTogglerDemo02">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+                  <li class="nav-item mx-2">
+                      <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+                    </li>
                     <li class="nav-item mx-2">
-                        <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
-                      </li>
-                      <li class="nav-item mx-2">
-                        <a class="nav-link" data-bs-toggle="tooltip" data-bs-title="Default tooltip" href="#">ABOUT</a>
-                      </li>
-                      <li class="nav-item mx-2">
-                        <a class="nav-link" href="product.html">PRODUCT</a>
-                      </li>
-                      <li class="nav-item mx-2">
-                        <a class="nav-link" href="gallery.html">GALLERY</a>
-                      </li>
-                      <li class="nav-item mx-2">
-                        <a class="nav-link" href="blog.html">BLOGS</a>
-                      </li>    
-                      <li class="nav-item mx-2">
-                        <a class="nav-link" href="blog.html">CONTACT</a>
-                      </li>  
-                </ul>
-                <form class="ddflx" role="search">
-                  <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
-                      <li class="nav-item mx-2">
-                        <a class="nav-link" href="#">
-                          <i class="bi bi-person-circle"></i>
-                        </a>
-                      </li>
-                      <li class="nav-item mx-2">
-                        <a class="nav-link btn px-2" href="#">BOOK APPOINTMENT</a>
-                      </li>    
-                </ul>
-                </form>
-              </div>
+                      <a class="nav-link" data-bs-toggle="tooltip" data-bs-title="Default tooltip" href="#about_page">ABOUT</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                      <a class="nav-link" href="product.html">PRODUCT</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                      <a class="nav-link" href="gallery.html">GALLERY</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                      <a class="nav-link" href="blog.html">BLOGS</a>
+                    </li>    
+                    <li class="nav-item mx-2">
+                      <a class="nav-link" href="blog.html">CONTACT</a>
+                    </li>  
+              </ul>
+              <form class="ddflx" role="search">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+                    <li class="nav-item ">
+                      <a class="nav-link " href="#">
+                        <i class="bi bi-person-circle "></i>
+                      </a>
+                    </li>
+                    <li class="nav-item ">
+                      <a class="nav-link" href="#">
+                        <i class="bi bi-cart"></i>
+                      </a>
+                    </li>
+                    <li class="nav-item mx-2">
+                      <a class="nav-link btn px-2" href="#"  type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalToggle">BOOK APPOINTMENT</a>
+                    </li>    
+              </ul>
+              </form>
             </div>
-          </nav>
-        
+          </div>
+        </nav>
+      
     </section>
     <!-- navabr end -->
 
@@ -178,52 +183,128 @@
 
     
 
-    <!-- ===================================== FOOTER PAGE =================================== -->
+    <!-- ========================== APPOINTMENT MODAL ============================== -->
+<div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalToggleLabel"><a class="navbar-brand fw-bold px-2" href="index.html">ALICE_BRAID</a></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <!-- ===================================== APPOINTMENT PAGE =================================== -->
+        <section class="row mx-0 " id="appointment_page">
+          <div class="col-12">
+            <div class="appointment_page_top">
+              <h2 class="hding">BOOK APPOINTMENT</h2>
+              <small style="width: 20%;">The best way to enjoy a treatment at our salon is to book an appointment <b style="color: var(--drkcolor);">NOW</b></small>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="appointment_form">
+              <div class="form-floating mb-2 mt-4">
+                <label for="validationDefault01" class="form-label">First name</label>
+    <input type="text" class="form-control mt-3" id="validationDefault01" value="" required>
+                <!-- <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required >
+                <label for="floatingInput">Name</label> -->
+              </div>
+            </div>
+            <div class="form-floating mb-2 mt-4">
+              <label for="validationDefault01" class="form-label">First name</label>
+    <input type="text" class="form-control" id="validationDefault01" value="" required>
+            </div>
+            <div class="form-floating mb-2 mt-4">
+              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+              <label for="floatingInput" required >Email</label>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="form-floating mb-2 mt-4">
+              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+              <label for="floatingInput" required >Service</label>
+            </div>
+            <div class="form-floating mb-2 mt-4">
+              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+              <label for="floatingInput" required >Date</label>
+            </div>
+            <div class="form-floating mb-2 mt-4">
+              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+              <label for="floatingInput" required >Time</label>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-primary" type="submit" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Next</button>
+      </div>
+    </div>
+  </div>
+</div>
 
-   <!-- <footer class="row px-5 py-5 mx-0">
-    <div class="col-lg-3 col-md-3 col-sm-12">
-      <div class="name">
-        <a class="navbar-brand fw-bold px-2" href="index.html">ALICE_BRAID</a><br>
-        <small style="width: 20%;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id sit vitae dolor, magni  .</small>
-        <div class="d-flex" style="justify-content: center;">
-          <a href=""><i style="color: #fff;" class="bi bi-facebook mx-2"></i></a>
-          <a href=""><i style="color: #fff;" class="bi bi-instagram mx-2"></i></a>
-          <a href=""><i style="color: #fff;" class="bi bi-twitter mx-2"></i></a>
-          <a href=""><i style="color: #fff;" class="bi bi-discord mx-2"></i></a>
+<!-- ========================== 2 APPOINTMENT MODAL ============================== -->
+  <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalToggleLabel2"><a class="navbar-brand fw-bold px-2" href="index.html">ALICE_BRAID</a></h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p class="my-2">Hint: There is a Booking Fees of <b class="my-2">$50</b> , it's not-refundable.</p>
+          <p>If your Book Date and Time is Cancel or Not-available you Book another space(charges Apply)</p>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Book</button>
         </div>
       </div>
     </div>
-    <div class="col-lg-3 col-md-3 col-sm-12">
-      <div class="footer_support" >
-        <h4 style="color: rgb(201, 5, 5)">Support</h4>
-        <small><a href="" style="color: #F5F5F5;">Help Center</a></small><br>
-        <small><a href=""style="color: #F5F5F5;">Tweet @ Us</a></small><br>
-        <small><a href=""style="color: #F5F5F5;">Feed Back</a></small><br>
-        <small><a href=""style="color: #F5F5F5;">About Us</a></small><br>
+  </div>
+
+
+    <!-- ===================================== FOOTER PAGE =================================== -->
+
+    <footer class="row px-5 py-5 mx-0">
+      <div class="col-lg-3 col-md-3 col-sm-12">
+        <div class="name">
+          <a class="navbar-brand fw-bold px-2" href="index.html">ALICE_BRAID</a><br>
+          <small style="width: 20%;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id sit vitae dolor, magni  .</small>
+          <div class="d-flex" style="justify-content: center;">
+            <a href=""><i style="color: #fff;" class="bi bi-facebook mx-2"></i></a>
+            <a href=""><i style="color: #fff;" class="bi bi-instagram mx-2"></i></a>
+            <a href=""><i style="color: #fff;" class="bi bi-twitter mx-2"></i></a>
+            <a href=""><i style="color: #fff;" class="bi bi-discord mx-2"></i></a>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="col-lg-3 col-md-3 col-sm-12">
-      <div class="links">
-        <h4 style="color: rgb(201, 5, 5)">Information</h4>
-        <small><a href=""style="color: #F5F5F5;">Top Sellers</a></small><br>
-        <small><a href=""style="color: #F5F5F5;">New products</a></small><br>
-        <small><a href=""style="color: #F5F5F5;">Services</a></small><br>
-        <small><a href=""style="color: #F5F5F5;">All in One</a></small><br>
+      <div class="col-lg-3 col-md-3 col-sm-12">
+        <div class="footer_support" >
+          <h4 style="color: rgb(201, 5, 5)">Support</h4>
+          <small><a href="" style="color: #F5F5F5;">Help Center</a></small><br>
+          <small><a href=""style="color: #F5F5F5;">Tweet @ Us</a></small><br>
+          <small><a href=""style="color: #F5F5F5;">Feed Back</a></small><br>
+          <small><a href=""style="color: #F5F5F5;">About Us</a></small><br>
+        </div>
       </div>
-    </div>
-    </div>
-    <div class="col-lg-3 col-md-3 col-sm-12">
-      <div class="contact-us">
-        <h4><a href="contact.html" style="color: rgb(201, 5, 5)">Contact Us</a></h4>
-        <small>support@gmail.com</small><br>
+      <div class="col-lg-3 col-md-3 col-sm-12">
+        <div class="links">
+          <h4 style="color: rgb(201, 5, 5)">Information</h4>
+          <small><a href=""style="color: #F5F5F5;">Top Sellers</a></small><br>
+          <small><a href=""style="color: #F5F5F5;">New products</a></small><br>
+          <small><a href=""style="color: #F5F5F5;">Services</a></small><br>
+          <small><a href=""style="color: #F5F5F5;">All in One</a></small><br>
+        </div>
       </div>
-    </div>
-    </div>
-    <hr class="mt-5">
-    <small style="justify-content: center;"style="color: #F5F5F5;">copyright@2020 All Right Reserved.</small>
-  </footer> -->
-    
-    
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-12">
+        <div class="contact-us">
+          <h4><a href="contact.html" style="color: rgb(201, 5, 5)">Contact Us</a></h4>
+          <small>support@gmail.com</small><br>
+        </div>
+      </div>
+      </div>
+      <hr class="mt-5">
+      <small style="justify-content: center;"style="color: #F5F5F5;">copyright@2020 All Right Reserved.</small>
+  </footer>
 
 
 

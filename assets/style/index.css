@@ -22,6 +22,11 @@
     --navfont: 'Raleway', sans-serif;
     --pfont: 'Roboto Flex', sans-serif;
 }
+.card{
+    border: none !important;
+    width: 100% !important;
+    height: fit-content !important;
+}
 .hding{
     font-size: xx-large;
     font-weight: 800;
@@ -348,8 +353,9 @@ main{
 @media only screen and (max-width: 767px) {
     .product_inner_content{
         width: 100% !important;
-        height: 450px;
+        height: fit-content !important;
         margin-top: 15%;
+        display: flex;
     
     }
     .product_page_top {
@@ -411,6 +417,7 @@ main{
     .product_inner_img1{
         height: 350px;
         width: 100%;
+        display: none !important;
     }
     .product_img_text{
         margin-top: -20%;
