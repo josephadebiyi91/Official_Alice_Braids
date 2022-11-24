@@ -494,3 +494,119 @@
 
 
 
+
+
+////PRODUCT MODAL/////
+<a href="#" class="btn px-4 py-2" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop1">READ MORE</a>
+
+<!-- ========================== PRODUCT MODAL ============================== -->
+<div class="modal fade " id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog .modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <a class="navbar-brand fw-bold px-2" href="index.html">ALICE_BRAID</a>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <section class="carousel_inner">
+        <div class="pic-ctn">
+          <img src="./assets/img/WhatsApp_Image_2022-11-21_at_03.12.08-removebg-preview.png" alt="" class="pic">
+          <img src="https://picsum.photos/200/300?t=2" alt="" class="pic">
+          <img src="https://picsum.photos/200/300?t=3" alt="" class="pic">
+        </div>
+      </section>
+      <div class="modal-footer py-2" style="justify-content: space-around;">
+        <div class="modal_bottom_text">
+          <div class="product_heading"><b style="color: #C68B59;">PONYTAIL BRAIDED WIG</b>
+            <p>PRICE: <span style="font-size: larger;">$250</span>
+            </p>
+          </div>
+        </div>
+        <button type="button" class="btn btn-primary">ADD CART</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ========================== MODAL 2 ============================== -->
+<div class="modal fade " id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog .modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <a class="navbar-brand fw-bold px-2" href="index.html">ALICE_BRAID</a>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <section class="carousel_inner">
+        <div class="pic-ctn">
+          <img src="./assets/img/WhatsApp_Image_2022-11-21_at_03.12.07-removebg-preview.png" alt="" class="pic">
+          <img src="https://picsum.photos/200/300?t=2" alt="" class="pic">
+          <img src="https://picsum.photos/200/300?t=3" alt="" class="pic">
+        </div>
+      </section>
+      <div class="modal-footer py-2" style="justify-content: space-around;">
+        <div class="modal_bottom_text">
+          <div class="product_heading"><b style="color: #C68B59;">ETISALAT BRAID</b>
+            <p>PRICE: <span style="font-size: larger;">$120</span>
+            </p>
+          </div>
+        </div>
+        <button type="button" class="btn btn-primary">ADD CART</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ========================== MODAL 3 ============================== -->
+<div class="modal fade " id="staticBackdrop3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog .modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <a class="navbar-brand fw-bold px-2" href="index.html">ALICE_BRAID</a>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <section class="carousel_inner">
+        <div class="pic-ctn">
+          <img src="./assets/img/WhatsApp_Image_2022-11-21_at_03.12.09-removebg-preview.png" alt="" class="pic">
+          <img src="https://picsum.photos/200/300?t=2" alt="" class="pic">
+          <img src="https://picsum.photos/200/300?t=3" alt="" class="pic">
+        </div>
+      </section>
+      <div class="modal-footer py-2" style="justify-content: space-around;">
+        <div class="modal_bottom_text">
+          <div class="product_heading"><b style="color: #C68B59;">LEMONADE WIG</b>
+            <p>PRICE: <span style="font-size: larger;">$250</span>
+            </p>
+          </div>
+        </div>
+        <button type="button" class="btn btn-primary">ADD CART</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ========================== MODAL 4 ============================== -->
+<div class="modal fade " id="staticBackdrop4" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog .modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <a class="navbar-brand fw-bold px-2" href="index.html">ALICE_BRAID</a>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <section class="carousel_inner">
+        <div class="pic-ctn">
+          <img src="./assets/img/WhatsApp_Image_2022-11-21_at_03.12.08-removebg-preview.png" alt="" class="pic">
+          <img src="https://picsum.photos/200/300?t=2" alt="" class="pic">
+          <img src="https://picsum.photos/200/300?t=3" alt="" class="pic">
+        </div>
+      </section>
+      <div class="modal-footer py-2" style="justify-content: space-around;">
+        <div class="modal_bottom_text">
+          <div class="product_heading"><b style="color: #C68B59;">PONYTAIL BRAIDED WIG</b>
+            <p>PRICE: <span style="font-size: larger;">$250</span>
+            </p>
+          </div>
+        </div>
+        <button type="button" class="btn btn-primary">ADD CART</button>
+      </div>
+    </div>
+  </div>
+</div>
