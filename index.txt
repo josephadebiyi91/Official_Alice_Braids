@@ -735,3 +735,193 @@
         
     </div>
  
+
+ /////////////////
+
+<section class="row mx-0 px-lg-5 px-md-2 px-sm-1" id="hair_page">
+          <div class="col-lg-5 col-md-5 col-sm-12">
+            
+          <div class="col-lg-7 col-md-7 col-sm-12">
+            <div class="hair_braids1"></div>
+            <a href="product.html" style=" text-decoration: none;"><p class="para pr-5"><i>HAIR WASHING</i></p></a>
+
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 mt-4">
+            <div class="hair_braids2"></div>
+            <a href="product.html" style=" text-decoration: none;"><p class="para pr-5"><i>6 STITCH BRAIDS</i></p></a>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 mt-4">
+            <div class="hair_braids3"></div>
+            <a href="product.html" style=" text-decoration: none;"><p class="para pr-5"><i>4 STITCH BRAIDS</i></p></a>
+          </div>
+          <div class="col-lg-7 col-md-7 col-sm-12 mt-4">
+            <div class="hair_braids4"></div>
+            <a href="product.html" style=" text-decoration: none;"><p class="para pr-5" style="margin-top: -38px;"><i>ZIZ-ZAG FULANI BRAIDS</i></p></a>
+
+          </div>
+          <div class="col-lg-5 col-md-5 col-sm-12 mt-4">
+            <div class="hair_braids5"></div>
+            <a href="product.html" style=" text-decoration: none;"><p class="para pr-5" style="margin-top: -7%;"><i>BOHEMIAN FULANI BRAIDS</i></p></a>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 mt-4">
+            <div class="hair_braids6"></div>
+            <a href="product.html" style=" text-decoration: none; "><p class="para pr-5"><i>OMBRE KNOTLESS BRAIDS</i></p></a>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 mt-4">
+            <div class="hair_braids7"></div>
+            <a href="product.html" style=" text-decoration: none;"><p class="para pr-5"><i>SMALL KNOTLESS MIX COLORS BRAIDS</i></p></a>
+          </div>
+          <div class="col-12">
+            <div class="product_page_top">
+              <a href="product.html" class="btn px-4 py-2">EXPLORE MORE</a>
+            </div>
+          </div>
+    </section>
+
+ //////////////
+ #hair_page{
+    height: fit-content;
+    margin-top: 15%;
+}
+.hair_text{
+    height: 450px;
+    padding: 15% 0px;
+}
+.hair_braids1{
+    height: 450px;
+    background-color: #FCFDF2;
+    background-image: url(../img/woman-washing-head-hairsalon_1157-27179.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.1);
+}
+.hair_braids2{
+    height: 450px;
+    background-color: #FCFDF2;
+    background-image: url(../img/WhatsApp_Image_2022-11-21_at_03.42.01-removebg-preview.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.1);
+}
+.hair_braids3{
+    height: 450px;
+    background-color: #FCFDF2;
+    background-image: url(../img/WhatsApp_Image_2022-11-21_at_03.44.58-removebg-preview.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.1);
+}
+.hair_braids4{
+    height: 450px;
+    background-color: #FCFDF2;
+    background-image: url(../img/WhatsApp_Image_2022-11-21_at_03.45.31-removebg-preview.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.1);
+}
+.hair_braids5{
+    height: 450px;
+    background-color: #FCFDF2;
+    background-image: url(../img/WhatsApp_Image_2022-11-21_at_03.47.31-removebg-preview.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.1);
+}
+.hair_braids6{
+    height: 450px;
+    background-color: #FCFDF2;
+    background-image: url(../img/WhatsApp_Image_2022-11-21_at_03.46.43-removebg-preview.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.1);
+}
+.hair_braids7{
+    height: 450px;
+    background-color: #FCFDF2;
+    background-image: url(../img/WhatsApp_Image_2022-11-21_at_03.43.39-removebg-preview.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.1);
+}
+#hair_page .para{
+    width: 80%;
+    margin: -6% 0px 0px 10%;
+    color: var(--drkcolor);
+    font-weight: bolder;
+    text-align: center;
+    font-family: var(--brandfont);
+    padding: 1% 0%;
+    background-color: rgba(0,0,0,0.7);
+    box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.4);
+    border-radius: 15px;
+  
+}
+@media only screen and (max-width: 767px) {
+    .hair_text .hding{
+        font-size: 25px;
+        margin-bottom: 3%;
+    }
+    #hair_page .para{
+        margin: -9% 0px 0px 0% !important;
+        width: 100% !important;
+
+    }
+    .hair_braids1{
+        background-size: cover;
+        height: 550px !important;
+    }
+    .hair_braids2{
+        background-size: cover;
+        height: 550px !important;
+    }
+    .hair_braids3{
+        background-size: cover;
+        height: 550px !important;
+    }
+    .hair_braids4{
+        background-size: cover;
+        height: 550px !important;
+    }
+    .hair_braids5{
+        background-size: cover;
+        height: 550px !important;
+    }
+    .hair_braids6{
+        background-size: cover;
+        height: 550px !important;
+    }
+    .hair_braids7{
+        background-size: cover;
+        height: 550px !important;
+    }
+    .hair_text{
+        font-size: medium !important;
+        padding: 15% 0px;
+     }
+}
+@media only screen and (max-width: 991px) {
+    .product_heading{
+        font-size: 25px;
+        font-weight: 600;
+        
+    }
+    .hair_text .hding{
+        font-size: 25px;
+        margin-bottom: 3%;
+    }
+    #hair_page .para{
+        margin-top: -10%;
+
+    }
+    .hair_text{
+       font-size: small;
+       padding: 35% 0px;
+    }
+}
