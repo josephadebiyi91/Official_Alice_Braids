@@ -132,7 +132,7 @@ p{
 .product_item{
     height: 145vh;
     margin-top: 3%;
-    overflow-y: hidden;
+    overflow-x: hidden;
 }
 @media screen and (max-width: 767px) {
     .product_item{
