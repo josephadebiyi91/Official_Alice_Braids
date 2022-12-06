@@ -48,7 +48,7 @@
   }
  
 .card-body{
-    height: 120px;
+    height: fit-content;
 }
 .hding{
     font-size: xx-large;
