@@ -9,7 +9,7 @@ let maxMove = 203;
 
 // Mobile view
 
-let mobile_view = window.matchMedia("(max-width: 768px)");
+let mobile_view = window.matchMedia("(max-width: 767px)");
 if(mobile_view.matches){
   movePer = 50.36;
   maxMove = 504;

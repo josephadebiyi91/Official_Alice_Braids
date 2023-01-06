@@ -89,10 +89,7 @@ p{
     box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.1);
 
 }
-.gallery_box:hover{
-    background-color: rgba(0, 0, 0, 0.7);
 
-}
 .gallery_text{
   height: 400px;
   /* background-color: #98A8F8; */
@@ -439,3 +436,111 @@ footer{
     padding: 20px;
   }
   
+
+
+/* ========================================= CAROUSEL STYLE ============== */
+
+.header{
+  width: 98%;
+  height: 60px;
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  border-bottom: 2px solid #ddd;
+}
+.header p span{
+  font-size: 40px;
+  font-weight: 600;
+  margin: 0 3px;
+  cursor: pointer;
+  color: var(--drkcolor);
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  line-height: 19px;
+  text-align: center;
+  border-radius: 3px;
+
+}
+.header p span:hover{
+  background-color: #000000;
+  color: #ddd;
+}
+.advt{
+  width: 98%;
+  height: 600px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  overflow-x: auto;
+}
+.advt::-webkit-scrollbar{
+  display: none;
+}
+.advt .product-slider{
+  min-width: 24%;
+  height: 90%;
+  background-color: whitesmoke;
+  margin: 0 20px 0 0;
+  border-radius: 20px;
+  position: relative;
+  left: 0;
+  transition: 0.5s;
+}
+picture{
+  width: 100%;
+  height: 70%;
+  padding: 20px;
+  display: flex;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+picture img{
+  width: 100%;
+}
+.details, .button{
+  width: 90%;
+  margin: auto;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  font-size: 20px;
+  color: #444;
+}
+.button{
+  align-items: baseline;
+}
+small{
+  color: #555;
+}
+p .star{
+  margin: 5px auto;
+  width: 65%;
+  font-size: 25px;
+  color: #808080;
+}
+@media(max-width: 767px){
+  .header h2{
+    font-size: 25px;
+  }
+  .header p span{
+    font-size: 30px;
+  }
+  .advt .product-slider{
+    min-width: 49%;
+    margin: 0 10px 0 0;
+
+  }
+  .details, .button{
+    font-size: 13px;
+  }
+  .button a{
+    font-size: 10px;
+  }
+
+
+}

@@ -32,7 +32,7 @@
         font-size: x-large;
         font-weight: 800;
         font-family: var(--brandfont);
-        color: var(--drkcolor) !important;
+        color: var(--blkkcolor) !important;
     }
   }
 .small-hding{
@@ -185,6 +185,9 @@ picture img{
   font-size: 20px;
   color: #444;
 }
+.button{
+  align-items: baseline;
+}
 small{
   color: #555;
 }
@@ -194,7 +197,7 @@ p .star{
   font-size: 25px;
   color: #808080;
 }
-@media(max-width: 768px){
+@media(max-width: 767px){
   .header h2{
     font-size: 25px;
   }
@@ -207,19 +210,14 @@ p .star{
 
   }
   .details, .button{
-    font-size: 16px;
+    font-size: 13px;
   }
-}
-/* a{
-  text-decoration: none;
-  padding: 6px 14px;
-  font-size: 15px;
-  margin: 5px 0 0 20px;
-  display: inline-block;
-  background-color: #6773ff;
-  color: white;
+  .button a{
+    font-size: 10px;
+  }
 
-} */
+
+}
 /* ===================================== PRODUCT PAGE ========================= */
 .product_top_text{
     display: flex;
