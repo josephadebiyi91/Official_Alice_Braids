@@ -374,7 +374,7 @@ main{
 
 }
 .btn{
-    height: 40px !important;
+    height: fit-content !important;
 }
 @media only screen and (max-width: 767px) {
     .product_inner_content{
@@ -621,6 +621,7 @@ main{
 }
 .swiper-button-next{
   right: 0;
+  margin-top: -5% !important;
 }
 @media screen and (max-width: 767px) {
     .swiper-button-next{
@@ -643,6 +644,8 @@ main{
   }
 .swiper-button-prev{
   left: 0;
+  margin-top: -5% !important;
+
 }
 .swiper-pagination-bullet{
     background-color: var(--drkcolor) !important;
@@ -660,7 +663,44 @@ main{
     display: none;
   }
 }
-
+/* ========================================= TEAM MEMBER STYLE ============== */
+.team-test .team_img{
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.team_img img{
+  height: 400px;
+}
+.team-test .team_body{
+  height: 120px;
+  width: 80%;
+  margin: auto;
+  background-color: rgba(234, 123, 13, 0.5);
+  margin-top: -20%;
+  position: relative;
+}
+.team_body .description{
+  font-size: 14px;
+  font-weight: 700;
+  font-style: italic;
+  color: #0b0909;
+  text-align: center;
+  height: fit-content;
+}
+.team_body{
+  text-align: center;
+  padding: 5px;
+  color: var(--litcolor);
+  height: fit-content;
+}
+.team_body h2{
+  padding: 5px;
+  border-bottom: 2px solid black;
+  width: fit-content;
+  margin: auto;
+}
 /* ========================================= ADVERT STYLE ============== */
 #advert_page{
     height: fit-content;
