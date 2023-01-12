@@ -531,7 +531,7 @@ p .star{
     font-size: 30px;
   }
   .advt .product-slider{
-    min-width: 49%;
+    min-width: 65% !important;
     margin: 0 10px 0 0;
 
   }
@@ -540,6 +540,9 @@ p .star{
   }
   .button a{
     font-size: 10px;
+  }
+  picture{
+    padding: 0px !important;
   }
 
 

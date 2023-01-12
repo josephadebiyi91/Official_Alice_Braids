@@ -385,7 +385,7 @@ main{
     
     }
     .product_page_top {
-        margin-top: 25% !important;
+        margin-top: 5% !important;
     }
     .product_page_top .hding{
         font-size: x-large;
@@ -397,7 +397,7 @@ main{
         font-weight: 600;
     }
     #product_page{
-        margin-top: 50% !important;
+        margin-top: 5% !important;
     }
 }
 .product_inner_text{
@@ -1126,7 +1126,7 @@ p .star{
     font-size: 30px;
   }
   .advt .product-slider{
-    min-width: 49%;
+    min-width: 65% !important;
     margin: 0 10px 0 0;
 
   }
@@ -1135,6 +1135,9 @@ p .star{
   }
   .button a{
     font-size: 10px;
+  }
+  picture{
+    padding: 0px !important;
   }
 
 

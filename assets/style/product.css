@@ -90,26 +90,32 @@ p{
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0% auto;
+
 }
 @media screen and (max-width: 767px) {
-    #product_landing_page{
+    /* #product_landing_page{
         background-color: rgba(0,0,0,0.9) !important;
-    }
+    } */
     .product_landing_text{
         height: 350px;
         width: 100% !important;
         margin-top: 55% !important;
         color: var(--litcolor) !important;
         position: relative;
+        padding: 7px;
 
     }
     .product_landing_img{
-        margin-top: -150%;
-        height: 80vh !important;
+        margin-top: -180%;
+        height: 90vh !important;
         background-size: cover !important;
         width: 100%;
-        padding: 45% !important;
+        padding: 50% !important;
+        background-attachment: fixed;
   
+    }
+    .product_landing_text h2, small{
+      color: var(--litcolor) !important;
     }
 }
 /* ========================================= CAROUSEL STYLE ============== */
@@ -205,7 +211,7 @@ p .star{
     font-size: 30px;
   }
   .advt .product-slider{
-    min-width: 49%;
+    min-width: 65% !important;
     margin: 0 10px 0 0;
 
   }
@@ -214,6 +220,9 @@ p .star{
   }
   .button a{
     font-size: 10px;
+  }
+  picture{
+    padding: 0px !important;
   }
 
 

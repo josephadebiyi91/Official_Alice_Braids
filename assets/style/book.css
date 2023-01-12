@@ -1,0 +1,350 @@
+/* === GENERAL STYLING ==== */
+/* brand font */
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap');
+/* navs font */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+/* paragraph font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    user-select: none;
+    user-zoom: none;
+}
+:root{
+    --litcolor:#FFFFFF;
+    --blkkcolor:#000000;
+    --drkcolor:#C68B59;
+    --brandfont:'Abyssinica SIL', serif;
+    --navfont: 'Raleway', sans-serif;
+    --pfont: 'Roboto Flex', sans-serif;
+}
+.card{
+    border: none !important;
+    width: 100% !important;
+    margin-top: 10%;
+    box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.1);
+    height: fit-content;
+}
+.card img{
+    height: 350px;
+    background-position: center;
+    background-size: contain !important;
+    background-repeat: no-repeat;
+}
+.card-text{
+    text-align: center !important;
+}
+@media screen and (max-width: 767px) {
+    .card img{
+        height: 500px !important;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+  }
+ 
+.card-body{
+    height: fit-content;
+}
+.hding{
+    font-size: xx-large;
+    font-weight: 800;
+    font-family: var(--brandfont);
+}
+@media screen and (max-width: 767px) {
+    .hding{
+        font-size: x-large;
+        font-weight: 800;
+        font-family: var(--brandfont);
+    }
+    .card-body{
+        height: fit-content !important;
+    }
+  }
+.small-hding{
+    font-weight: 800;
+    font-family: var(--brandfont);
+    display: block;
+    font-size: small;
+}
+
+p{
+    font-family: var(--pfont);
+    text-align: justify;
+}
+.btn{
+    width: fit-content;
+    background-color:var(--drkcolor) !important;
+    border: none !important;
+    color: var(--litcolor) !important;
+}
+.btn:hover{
+    width: fit-content;
+    background:none !important;
+    border: 1px solid var(--drkcolor) !important;
+    color: var(--drkcolor) !important;
+}
+/* === NAVBAR STYLING ==== */
+#navbar{
+    background-color:var(--litcolor);
+    /* height: 10vh !important; */
+}
+.navbar-brand{
+    font-family:var(--brandfont);
+    border: 2px solid var(--blkkcolor);
+}
+.nav-link,form a{
+    font-family: var(--navfont);
+    font-size: 0.9em !important;
+    font-weight: bold;
+    color: var(--blkcolor);
+}
+
+/* === BOOK STYLING ==== */
+#book_page{
+    height: 700px;
+    width: 50%;
+    margin: 5% auto;
+}
+
+  /* ========================================= APPOINTMENT STYLE ============== */
+
+  #appointment_page{
+    /* padding: 20%; */
+    height: fit-content;
+}
+.appointment_page_top{
+    height: fit-content;
+    width: 100%;
+    text-align: center;
+    /* padding: 5%; */
+}
+@media screen and (max-width: 767px) {
+    #appointment_page{
+        padding: 1% !important;
+    }
+    .appointment_page_top{
+        height: fit-content;
+        width: 100%;
+        text-align: center;
+        padding: 0% !important;
+    }
+    #book_page{
+        height: 700px;
+        width: 100% !important;
+        margin: 0%;
+    }
+    
+  }
+
+
+
+/* === FOOTER STYLING ==== */
+footer{
+    color: var(--drkcolor);
+    background-color: var(--blkkcolor);
+    /* background-image: linear-gradient(90deg, var(--drkcolor) 0%, rgba(87,25,45,1) 100%); */
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top:50px;
+    border-top-left-radius: 70px;
+    font-size: 0.8rem;
+  }
+  
+  
+  
+  @media (max-width:960px) {
+    footer{
+      width: 100%;
+      top: 120px;
+    }
+    
+    .main{
+    margin: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 1fr;
+  }
+    
+    .logo{
+      grid-column: 1/3;
+    }
+    
+    .office{
+      grid-column: 3/5;
+    }
+    .link{
+      grid-column: 1/3;
+    }
+    
+      
+  }
+  
+  
+  
+  
+  
+  @media (max-width:660px){
+    .main{
+      gap:10px;
+      margin: 0;
+  
+    }
+    
+    .icons{
+      display: flex;
+    }
+    
+   
+    
+    .row{
+      grid-column: 1/4;
+    }
+  }
+  
+
+  .main{
+    margin: 50px;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    display: grid;
+    gap: 50px;
+    grid-template-columns: repeat(4, 1fr );
+  }
+  .row{
+   margin-top: 50px;
+  }
+  .footer-header{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .office-des{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .office a{
+    text-decoration: none;
+    color: var(--drkcolor);
+    
+  }
+  .office a:hover{
+    color: #fff;
+  }
+  .num{
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  .link-des{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+  }
+  .link-des a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .link-des a:hover{
+    color: var(--drkcolor);
+    transition: linear 0.3s;
+  }
+  
+  .btn-know{
+    text-decoration: none;
+    background-color: #fff;
+    padding: 10px;
+    position: relative;
+    top: 30px;
+    background-color: transparent;
+    border: 1px solid #98A8F8;
+    color: #98A8F8;
+    text-transform: uppercase;
+    border-radius:10px;
+    
+  }
+  
+  
+  .btn-know:hover{
+    color: white; 
+    background-color: #98A8F8;
+    transition: linear 0.3s;
+  }
+  .subcribe{
+    display: flex;
+  }
+  input[type=mail]{
+    border: none;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+    color: #fff !important;
+    font-size: 0.8rem;
+  }
+  .sub-icon{
+    margin: 7px;
+    margin-right: 15px;
+    margin-left: 0;
+    font-size: 1.5rem;
+  }
+  .ri-arrow-right-line{
+    margin-left: 0;
+    
+  }
+  
+  .icons a{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 50%;
+    align-items: center;
+    font-size: 1.1rem;
+    margin: 5%;
+  }
+  
+  
+  .social-icon{
+    position: relative;
+    top:2px;
+  }
+  .icons a:hover{
+    color: #fff;
+    font-size: 25px;
+    background-color: var(--drkcolor);
+    border-color: var(--drkcolor);
+    transition: linear 0.3s;
+  }
+  .newsletter-des{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  
+  .copyright{
+    text-align: center !important;
+  }
+  
+  hr{
+    width: 90%;
+    margin: 2px auto !important;
+    opacity: 40%;
+    border: 0.01px solid white;
+    
+  }
+  
+  .copyright p{
+    padding: 20px;
+  }
+  
